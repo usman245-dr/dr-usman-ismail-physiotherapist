@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://usamaismail245.github.io/dr-usman-ismail-physiotherapist/sitemap.xml
+Sitemap: https://usman245-dr.github.io/dr-usman-ismail-physiotherapist/sitemap.xml
