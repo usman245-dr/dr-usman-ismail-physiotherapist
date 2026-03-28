@@ -878,6 +878,19 @@ ul {
     flex-wrap: wrap;
 }
 
+.hv-image-wrapper {
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.hv-photo {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    display: block;
+}
+
 .hv-image-placeholder {
     width: 100%;
     aspect-ratio: 4 / 5;
