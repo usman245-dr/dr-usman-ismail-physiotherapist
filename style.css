@@ -475,6 +475,16 @@ ul {
     font-weight: 500;
 }
 
+.doctor-photo {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-lg);
+}
+
 .hero-badge-float {
     position: absolute;
     z-index: 2;
@@ -555,6 +565,13 @@ ul {
     border-radius: var(--radius-xl);
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+}
+
+.about-photo {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    display: block;
 }
 
 .about-placeholder {
@@ -647,6 +664,49 @@ ul {
 .about-feature i {
     color: var(--primary);
     font-size: 1.1rem;
+}
+
+.qualifications-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qualifications-title i {
+    color: var(--primary);
+}
+
+.qualifications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 28px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.qualifications-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 16px;
+    background: var(--bg-light);
+    border-radius: var(--radius-sm);
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    border-left: 3px solid var(--primary);
+}
+
+.qualifications-list li i {
+    color: var(--primary);
+    font-size: 0.95rem;
+    min-width: 18px;
+    text-align: center;
 }
 
 /* ==================== SERVICES ==================== */
