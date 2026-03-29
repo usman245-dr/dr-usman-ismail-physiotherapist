@@ -1189,118 +1189,6 @@ ul {
     color: var(--text-light);
 }
 
-/* ==================== REVIEW FORM ==================== */
-.review-form-wrapper {
-    margin-top: 48px;
-    background: var(--white);
-    border-radius: var(--radius-lg);
-    padding: 40px;
-    box-shadow: var(--shadow-md);
-    border: 1px solid var(--border);
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.review-form-header {
-    text-align: center;
-    margin-bottom: 28px;
-}
-
-.review-form-header h3 {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--text-dark);
-    margin-bottom: 6px;
-}
-
-.review-form-header h3 i {
-    color: var(--primary);
-    margin-right: 8px;
-}
-
-.review-form-header p {
-    font-size: 0.95rem;
-    color: var(--text-light);
-}
-
-.form-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-}
-
-.form-group {
-    margin-bottom: 18px;
-}
-
-.form-group label {
-    display: block;
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--text-dark);
-    margin-bottom: 6px;
-}
-
-.form-group label i {
-    color: var(--primary);
-    margin-right: 6px;
-    font-size: 0.85rem;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 12px 16px;
-    border: 1.5px solid var(--border);
-    border-radius: var(--radius-md);
-    font-size: 0.95rem;
-    font-family: inherit;
-    color: var(--text-dark);
-    background: var(--bg-light);
-    transition: var(--transition);
-    box-sizing: border-box;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-    outline: none;
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.1);
-    background: var(--white);
-}
-
-.form-group textarea {
-    resize: vertical;
-    min-height: 100px;
-}
-
-.star-rating {
-    display: flex;
-    gap: 6px;
-    margin-top: 4px;
-}
-
-.star-rating i {
-    font-size: 1.5rem;
-    color: #e5e7eb;
-    cursor: pointer;
-    transition: color 0.2s ease, transform 0.2s ease;
-}
-
-.star-rating i.active {
-    color: #fbbf24;
-}
-
-.star-rating i:hover {
-    transform: scale(1.15);
-}
-
-.btn-block {
-    width: 100%;
-    justify-content: center;
-}
-
 /* ==================== CONTACT ==================== */
 .contact {
     background: var(--white);
@@ -1803,15 +1691,6 @@ ul {
         font-size: 0.85rem;
     }
 
-    /* Review form mobile */
-    .review-form-wrapper {
-        padding: 28px 20px;
-    }
-
-    .form-row {
-        grid-template-columns: 1fr;
-    }
-
     /* Home visit mobile */
     .home-visit-grid {
         grid-template-columns: 1fr;
@@ -2017,19 +1896,6 @@ ul {
 
     .service-img {
         height: 120px;
-    }
-
-    /* Review form small */
-    .review-form-wrapper {
-        padding: 24px 16px;
-    }
-
-    .review-form-header h3 {
-        font-size: 1.2rem;
-    }
-
-    .star-rating i {
-        font-size: 1.3rem;
     }
 
     /* Home visit small */
